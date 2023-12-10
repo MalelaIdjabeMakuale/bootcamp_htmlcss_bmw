@@ -1,0 +1,62 @@
+.header {
+  background-image: url(./img/header_coche.webp);
+  background-size: cover;
+  
+}
+
+.botondescubrir{ color: #ffffff;
+  text-decoration: none;
+
+}
+
+nav a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu { list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+   
+    
+}
+
+.iconos li img {
+  width: 4vh;
+
+}
+
+
+.iconos {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20%;
+}
+
+button {
+  background-color: #1c68d5;
+  color: #ffffff;
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  box-shadow: none;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 100px;
+}
+
+.descubrir {
+  margin-left: 6%;
+  color: #ffffff;
+}

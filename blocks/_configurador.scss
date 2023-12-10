@@ -1,0 +1,23 @@
+.cajas {
+    display: flex;
+    justify-content:space-evenly ;
+  }
+  
+  .caja {
+    width: 250px;
+    height: 100px;
+    background-color:#efecec;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bloque4 img {width: 7,5%;
+    height: 20%;
+    padding-left: 40%; 
+    padding-top: 10%;
+    
+}
+
+.bloque4 p{
+padding-left: 30%;   
+}

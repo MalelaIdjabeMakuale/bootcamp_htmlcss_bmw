@@ -1,0 +1,282 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap");
+* {
+  font-family: Exo;
+}
+
+.header {
+  background-image: url(./img/header_coche.webp);
+  background-size: cover;
+}
+
+.botondescubrir {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.iconos li img {
+  width: 4vh;
+}
+
+.iconos {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20%;
+}
+
+button {
+  background-color: #1c68d5;
+  color: #ffffff;
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  box-shadow: none;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 100px;
+}
+
+.descubrir {
+  margin-left: 6%;
+  color: #ffffff;
+}
+
+h3 {
+  color: #b5b5b5;
+}
+
+.nav-bar {
+  color: #b5b5b5;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.nav-item {
+  color: #cecccc;
+}
+
+.nav-item:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #0069D7;
+  text-decoration-thickness: 3px;
+}
+
+.cars {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.carpics ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+ul li img {
+  width: 25vh;
+}
+
+.carprices {
+  color: #cecccc;
+  position: relative;
+}
+
+.carprices li img {
+  max-height: 14px;
+  max-width: 14px;
+}
+
+.tab1 {
+  font-size: 10px;
+  position: relative;
+}
+
+.tab2 {
+  font-size: 10px;
+  position: relative;
+}
+
+.carpics2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.bloque2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.visitavirtual {
+  display: block;
+  width: 35vh;
+  border: 1px solid #b5b5b5;
+  background-color: transparent;
+}
+
+.ocasion {
+  display: block;
+  width: 35vh;
+  border: 1px solid #b5b5b5;
+  background-color: transparent;
+}
+
+.cita {
+  display: block;
+  width: 35vh;
+  border: 1px solid #b5b5b5;
+  background-color: transparent;
+}
+
+.nuevos {
+  display: block;
+  width: 35vh;
+  border: 1px solid #b5b5b5;
+  background-color: transparent;
+}
+
+.bloque2 img {
+  width: 95%;
+  height: 40%;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.bloque2 p {
+  font-size: 14px;
+}
+
+.bloque2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bloque3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categoría {
+  display: block;
+  border: 1px solid #b5b5b5;
+  background-color: transparent;
+  margin: 5%;
+}
+
+.youtube {
+  display: block;
+  border: 1px solid #b5b5b5;
+  background-color: transparent;
+  margin: 5%;
+}
+
+.bloque3 a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bloque3 img {
+  max-width: 98%;
+  height: 75%;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.cajas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caja {
+  width: 250px;
+  height: 100px;
+  background-color: #efecec;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloque4 img {
+  width: 7, 5%;
+  height: 20%;
+  padding-left: 40%;
+  padding-top: 10%;
+}
+
+.bloque4 p {
+  padding-left: 30%;
+}
+
+.cajagris {
+  border: 5px solid #d0cbcb;
+  background-color: #d0cbcb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.footerlist li a {
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer2 ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 8px;
+  margin-top: 20px;
+  gap: 10px;
+  color: blue;
+}
+
+h6 {
+  font-size: 8px;
+}/*# sourceMappingURL=styles.css.map */

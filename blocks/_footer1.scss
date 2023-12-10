@@ -1,0 +1,20 @@
+.cajagris {
+    border: 5px solid #d0cbcb;
+    background-color:#d0cbcb;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  }
+  
+ul { list-style-type: none;
+    font-size: 12px;
+
+}
+
+.footerlist li a {text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 10px;
+    font-weight:bold ;
+
+}

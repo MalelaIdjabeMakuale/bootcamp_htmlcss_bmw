@@ -1,0 +1,29 @@
+.bloque3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .categoría {display: block;
+    border: 1px solid #b5b5b5;;
+    background-color: transparent;
+    margin: 5%;
+}
+
+.youtube {display: block;
+    border: 1px solid #b5b5b5;;
+    background-color: transparent;
+    margin: 5%;
+}
+
+.bloque3 a {text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.bloque3 img {max-width: 98%;
+   height: 75%;
+    margin-top: 6px;
+    margin-left: 5px;
+}

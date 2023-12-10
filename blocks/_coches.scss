@@ -1,0 +1,72 @@
+h3 {color: #b5b5b5;    
+}
+
+.nav-bar {color:#b5b5b5;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+
+}
+
+.nav-item {
+    color: #cecccc;
+  }
+  
+  .nav-item:hover {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #0069D7;
+    text-decoration-thickness: 3px;
+  }
+ 
+  .cars  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+
+  .carpics ul {
+    list-style: none;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ position: relative;
+  }
+
+  ul li img {
+    width: 25vh;
+  }
+.carprices{ color: #cecccc;
+    position: relative;
+  
+
+}
+
+.carprices li img {max-height: 14px;
+    max-width: 14px;
+
+}
+
+.tab1 {font-size: 10px;
+position: relative;
+
+
+}
+
+.tab2 {font-size: 10px;
+    position: relative;
+   
+
+}
+
+.carpics2 ul {
+    list-style: none;
+    display: flex;
+  flex-direction: row;
+ position: relative;
+
+  }
+
